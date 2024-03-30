@@ -29,7 +29,7 @@ public class MethodName {
 		return new ResponseEntity<String>("Put Method Update Succes Menber ",HttpStatus.OK);
 	}
 	
-	@PatchMapping("patchupdate")
+	@PatchMapping("/patchupdate")
 	public ResponseEntity<String> patchMethod(){
 		return new ResponseEntity<>("Pathch Update Method ", HttpStatus.OK);
 		
